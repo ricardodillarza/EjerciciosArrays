@@ -1,11 +1,14 @@
-var asistencias = [0,1,1,0,1,0,1,1,0];
+var asistencias = [true,false,true,false,true,false,true,true,false];
 var suma = 0;
 var porcentaje = 0;
+var verdaderos = 0;
 
 for(let i=0;i<asistencias.length;i++){
-    suma +=asistencias[i];
+    if (asistencias[i] = true){
+        suma++
+    }
 }
 
 porcentaje = suma / asistencias.length;
 
-console.log("tu porcentaje es " + porcentaje);
+console.log("tu porcentaje de asistencias es " + porcentaje);
