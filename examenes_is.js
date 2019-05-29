@@ -11,4 +11,4 @@ for (let i =0;i<examenes.length;i++){
     }
 }
 
-console.log("aprobaste" + aprobado + "y reprobaste" + reprobado);
+console.log("aprobaste " + aprobado + " y reprobaste " + reprobado);
